@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114698ED1742EC5100EDDEF1 /* CustomCollectionCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 114698EC1742EC5100EDDEF1 /* CustomCollectionCellView.m */; };
+		114698EF1742EED600EDDEF1 /* CustomCollectionCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114698EE1742EED600EDDEF1 /* CustomCollectionCellView.xib */; };
+		114698F11743469D00EDDEF1 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114698F01743469D00EDDEF1 /* Twitter.framework */; };
 		11C53A6C173D98DC008C2389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C53A6B173D98DC008C2389 /* UIKit.framework */; };
 		11C53A6E173D98DC008C2389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C53A6D173D98DC008C2389 /* Foundation.framework */; };
 		11C53A70173D98DC008C2389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C53A6F173D98DC008C2389 /* CoreGraphics.framework */; };
@@ -18,9 +21,16 @@
 		11C53A82173D98DC008C2389 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C53A81173D98DC008C2389 /* Default-568h@2x.png */; };
 		11C53A85173D98DC008C2389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C53A84173D98DC008C2389 /* ViewController.m */; };
 		11C53A88173D98DC008C2389 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C53A86173D98DC008C2389 /* ViewController.xib */; };
+		11C53A8F173D9947008C2389 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C53A8E173D9947008C2389 /* Accounts.framework */; };
+		11C53A91173DB237008C2389 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C53A90173DB237008C2389 /* Social.framework */; };
+		11C53A93173DD83C008C2389 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C53A92173DD83C008C2389 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		114698EB1742EC5100EDDEF1 /* CustomCollectionCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionCellView.h; sourceTree = "<group>"; };
+		114698EC1742EC5100EDDEF1 /* CustomCollectionCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionCellView.m; sourceTree = "<group>"; };
+		114698EE1742EED600EDDEF1 /* CustomCollectionCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionCellView.xib; sourceTree = "<group>"; };
+		114698F01743469D00EDDEF1 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		11C53A68173D98DC008C2389 /* Johnson_Carmen_MDF2_Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Johnson_Carmen_MDF2_Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C53A6B173D98DC008C2389 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11C53A6D173D98DC008C2389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,9 @@
 		11C53A83173D98DC008C2389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		11C53A84173D98DC008C2389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11C53A87173D98DC008C2389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		11C53A8E173D9947008C2389 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		11C53A90173DB237008C2389 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		11C53A92173DD83C008C2389 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114698F11743469D00EDDEF1 /* Twitter.framework in Frameworks */,
+				11C53A91173DB237008C2389 /* Social.framework in Frameworks */,
+				11C53A8F173D9947008C2389 /* Accounts.framework in Frameworks */,
 				11C53A6C173D98DC008C2389 /* UIKit.framework in Frameworks */,
 				11C53A6E173D98DC008C2389 /* Foundation.framework in Frameworks */,
 				11C53A70173D98DC008C2389 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +89,9 @@
 		11C53A6A173D98DC008C2389 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				114698F01743469D00EDDEF1 /* Twitter.framework */,
+				11C53A90173DB237008C2389 /* Social.framework */,
+				11C53A8E173D9947008C2389 /* Accounts.framework */,
 				11C53A6B173D98DC008C2389 /* UIKit.framework */,
 				11C53A6D173D98DC008C2389 /* Foundation.framework */,
 				11C53A6F173D98DC008C2389 /* CoreGraphics.framework */,
@@ -85,10 +104,14 @@
 			children = (
 				11C53A7A173D98DC008C2389 /* AppDelegate.h */,
 				11C53A7B173D98DC008C2389 /* AppDelegate.m */,
+				11C53A92173DD83C008C2389 /* MainStoryboard.storyboard */,
 				11C53A83173D98DC008C2389 /* ViewController.h */,
 				11C53A84173D98DC008C2389 /* ViewController.m */,
 				11C53A86173D98DC008C2389 /* ViewController.xib */,
 				11C53A72173D98DC008C2389 /* Supporting Files */,
+				114698EB1742EC5100EDDEF1 /* CustomCollectionCellView.h */,
+				114698EC1742EC5100EDDEF1 /* CustomCollectionCellView.m */,
+				114698EE1742EED600EDDEF1 /* CustomCollectionCellView.xib */,
 			);
 			path = Johnson_Carmen_MDF2_Project1;
 			sourceTree = "<group>";
@@ -163,6 +186,8 @@
 				11C53A80173D98DC008C2389 /* Default@2x.png in Resources */,
 				11C53A82173D98DC008C2389 /* Default-568h@2x.png in Resources */,
 				11C53A88173D98DC008C2389 /* ViewController.xib in Resources */,
+				11C53A93173DD83C008C2389 /* MainStoryboard.storyboard in Resources */,
+				114698EF1742EED600EDDEF1 /* CustomCollectionCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +201,7 @@
 				11C53A78173D98DC008C2389 /* main.m in Sources */,
 				11C53A7C173D98DC008C2389 /* AppDelegate.m in Sources */,
 				11C53A85173D98DC008C2389 /* ViewController.m in Sources */,
+				114698ED1742EC5100EDDEF1 /* CustomCollectionCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +289,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Johnson_Carmen_MDF2_Project1/Johnson_Carmen_MDF2_Project1-Prefix.pch";
 				INFOPLIST_FILE = "Johnson_Carmen_MDF2_Project1/Johnson_Carmen_MDF2_Project1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Johnson_Carmen_MDF2_Project1/Johnson_Carmen_MDF2_Project1-Prefix.pch";
 				INFOPLIST_FILE = "Johnson_Carmen_MDF2_Project1/Johnson_Carmen_MDF2_Project1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +326,7 @@
 				11C53A8D173D98DC008C2389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
